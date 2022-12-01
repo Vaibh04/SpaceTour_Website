@@ -1,0 +1,117 @@
+body{
+    font-family: 'Bellefair', serif;
+    background-image: url(background-crew-desktop.jpg);
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header img{
+    position: relative;
+    top: 37px;
+    left: 40px;
+}
+.header{
+    height: 100px;
+}
+hr{
+    width: 550px;
+    position: absolute;
+    left: 230px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    top: 60px;
+    background: #FFFFFF;
+}
+ul{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    display: flex;
+    float: right;
+    backdrop-filter: blur(.7742px);
+    width: 750px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.04);
+    
+}
+#active{
+    text-decoration: underline;
+    opacity: 1;
+}
+ul li a:hover{
+    color: white;
+    text-decoration: underline;
+    opacity: 1;
+}
+ul li{
+    list-style-type:none ;
+}
+ul li a{
+    position: relative;
+    top: 30px;
+    opacity: 0.6;
+    font-weight: lighter;
+    transition: all ease-out 0.5s;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 0 40px 0 60px;
+}
+.top-container img{
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    height: 16cm;
+}
+#top{
+    position: absolute;
+    left: 200px;
+    top: 170px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.content{
+    left: 200px;
+    width: 550px;
+    position: absolute;
+    top: 310px;
+}
+#second{
+    opacity: 0.9;
+    font-size: 30px;
+}
+
+h1{
+    font-size: 50px;
+}
+p{
+    letter-spacing: 3px;
+    line-height: 1.5;
+    font-size: large;
+}
+.foot{
+    position: absolute;
+    bottom: 30px;
+    left: 200px;
+}
+.foot a{
+    font-size: 150px;
+    color: white;
+    opacity: 0.4;
+    text-decoration: none;
+}
+#act{
+    opacity: 1;
+}
+footer{
+    position: absolute;
+    text-align: center;
+    width: auto;
+    top: 0;
+    left: 0;
+    background-color: white;
+    color: black;
+    font-family: cursive;
+    font-size: 12px;
+}
