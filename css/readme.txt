@@ -1,1 +1,1 @@
-This contain all assets.
+Contain all the CSS part.
